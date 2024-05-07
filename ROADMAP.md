@@ -65,7 +65,7 @@ This roadmap outlines the development and refinement stages for the educational 
 ```dataviewjs
 dv.span("**Commit Activity**")
 const calendarData = {
-    year: 2024, 
+    year: 2024,
     colors: {
         blue: ["#8cb9ff", "#69a3ff", "#428bff", "#1872ff", "#0058e2"],
     },
@@ -76,37 +76,37 @@ const calendarData = {
     entries: [],
 }
 
-// Ensure the file path is correct and accessible
 try {
-    // Attempt to fetch the page and display its content
+    // Attempt to fetch the page and use its content
     let page = dv.page("/Data/commits");
-    dv.paragraph("File content preview: " + page.file.content.slice(0, 100));
-} catch (error) {
-    dv.paragraph("Error fetching file: " + error.toString());
-}
+    let commitText = page.file.content;
+    let commitLines = commitText.split('\n');
+    let commitCount = {};
 
-let commitLines = commitText.split('\n');
-let commitCount = {};
-
-commitLines.forEach(line => {
-    let match = line.match(/\*\*(\d{4}-\d{2}-\d{2})\*\*/);
-    if (match) {
-        let date = match[1];
-        commitCount[date] = (commitCount[date] || 0) + 1;
-    }
-});
-
-Object.keys(commitCount).forEach(date => {
-    calendarData.entries.push({
-        date: date,
-        intensity: commitCount[date],
-        content: "🔧",
-        color: "blue",
+    commitLines.forEach(line => {
+        let match = line.match(/\*\*(\d{4}-\d{2}-\d{2})\*\*/);
+        if (match) {
+            let date = match[1];
+            commitCount[date] = (commitCount[date] || 0) + 1;
+        }
     });
-});
 
-renderHeatmapCalendar(this.container, calendarData);
+    // Populate the calendar data
+    Object.keys(commitCount).forEach(date => {
+        calendarData.entries.push({
+            date: date,
+            intensity: commitCount[date],
+            content: "🔧",
+            color: "blue",
+        });
+    });
+
+    renderHeatmapCalendar(this.container, calendarData);
+} catch (error) {
+    dv.paragraph("Error: " + error.toString());
+}
 ```
+
 
 
 
