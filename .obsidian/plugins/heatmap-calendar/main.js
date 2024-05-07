@@ -366,7 +366,7 @@ var HeatmapCalendar = class extends import_obsidian2.Plugin {
           }
         }
         const heatmapCalendarGraphDiv = createDiv({
-          cls: "heatmap-calendar-graph",
+          cls: `heatmap-calendar-graph ${mode}`,
           parent: el
         });
         createDiv({

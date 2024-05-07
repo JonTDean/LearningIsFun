@@ -89,9 +89,15 @@ fs.readFile(path.join(vaultDir, 'Data/commits.json'), 'utf8', async (err, data) 
             commitCount[date] = (commitCount[date] || 0) + 1;
         });
 
+        // Get current date
+        const currentDate = new Date();
+
         // Prepare calendar data
         const calendarData = {
-            month: new Date().getMonth(),
+            mode: "month", // or "week"
+            year: currentDate.getFullYear(),
+            month: currentDate.getMonth(),
+            week: getWeekNumber(currentDate),
             colors: {
                 green: ["#c6e48b", "#7bc96f", "#49af5d", "#2e8840", "#196127"],
             },
@@ -120,7 +126,16 @@ function removeBOM(str) {
     }
     return str;
 }
+
+// Function to get the week number for a given date
+function getWeekNumber(date) {
+    const firstDayOfYear = new Date(date.getFullYear(), 0, 1);
+    const pastDaysOfYear = (date - firstDayOfYear) / 86400000;
+    return Math.ceil((pastDaysOfYear + firstDayOfYear.getDay() + 1) / 7);
+}
 ```
+
+
 
 
 
