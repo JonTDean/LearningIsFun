@@ -14,15 +14,16 @@
 
 ## Table of Contents
 
+## Table of Contents
 - [Let's Learn Together](#lets-learn-together)
 	- [Table of Contents](#table-of-contents)
+	- [Table of Contents](#table-of-contents-1)
 	- [Introduction](#introduction)
 	- [Contact](#contact)
 	- [Getting Started](#getting-started)
-	- [License](#license)
-	- [Acknowledgements](#acknowledgements)
 	- [Contributing](#contributing)
 		- [Contributors ✨](#contributors-)
+	- [License](#license)
 
 ## Introduction
 
@@ -48,18 +49,11 @@ To get started, simply browse the folders in this repository and find a topic th
     	```
 		chmod +x ./Scripts/Start.sh
 		```
-
+- Navigate to folder that has topic of interest
+	- I.e. `cd Lessons/1_Setup/3_Obsidian/Plugins.md`
 If you have any questions or need help with anything, feel free to ask in the [Discussions](https://github.com/JonTDean/LetsLearnTogether/discussions).
 
-## License
-
-This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). You are free to share and adapt the material for non-commercial purposes, as long as you give appropriate credit and distribute your contributions under the same license.
-
-Please see the [LICENSE](/LICENSE.md) file for more details.
-
-![CC BY-NC-SA 4.0](/media/images/logos/cc-nc-sa-logo.png)
-
-## Acknowledgements
+<!-- ## Acknowledgements
 
 We would like to express our gratitude to the following individuals and projects for their valuable contributions and inspiration:
 
@@ -67,7 +61,7 @@ We would like to express our gratitude to the following individuals and projects
 - [Project Name](https://example.com) - For providing inspiration and serving as a reference for key features and design elements.
 - [Organization Name](https://example.org) - For their support and resources that helped in the development of this project.
 
-We also want to thank the open-source community for their continuous support and the various libraries and tools that made this project possible.
+We also want to thank the open-source community for their continuous support and the various libraries and tools that made this project possible. -->
 
 ## Contributing
 
@@ -95,3 +89,11 @@ Thanks goes to these wonderful people 💼:
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## License
+
+This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). You are free to share and adapt the material for non-commercial purposes, as long as you give appropriate credit and distribute your contributions under the same license.
+
+Please see the [LICENSE](/LICENSE.md) file for more details.
+
+![CC BY-NC-SA 4.0](/media/images/logos/cc-nc-sa-logo.png)
