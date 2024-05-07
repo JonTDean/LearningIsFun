@@ -63,32 +63,65 @@ This roadmap outlines the development and refinement stages for the educational 
 
 
 ```dataviewjs
+const fs = require('fs');
+const path = require('path');
+
 dv.span("**Commit Activity**");
 
-// Fetch the JSON file using a relative path
-let response = await fetch("./Data/commits.json");
-if (!response.ok) {
-    console.error("Failed to fetch commits data");
-    return;
-}
+// Get the current Obsidian vault directory
+const vaultDir = window.app.vault.adapter.getBasePath();
 
-// Parse the JSON response
-let commitData = await response.json();
+// Async read file
+fs.readFile(path.join(vaultDir, 'Data/commits.json'), 'utf8', async (err, data) => {
+    if (err) {
+        console.error('Error reading file:', err);
+        return;
+    }
+    try {
+        // Remove BOM (Byte Order Mark) if present
+        data = removeBOM(data);
 
-// Extracting unique dates and their commit counts
-let commitCount = {};
-commitData.forEach(commit => {
-    let date = commit.date.split('T')[0]; // Extracting date part
-    commitCount[date] = (commitCount[date] || 0) + 1;
+        // Parse JSON data
+        const commitData = JSON.parse(data);
+
+        // Extracting unique dates and their commit counts from "dev" array
+        let commitCount = {};
+        commitData.dev.forEach(commit => {
+            let date = commit.date.split('T')[0]; // Extracting date part
+            commitCount[date] = (commitCount[date] || 0) + 1;
+        });
+
+        // Prepare calendar data
+        const calendarData = {
+            year: new Date().getFullYear(),
+            colors: {
+                green: ["#c6e48b", "#7bc96f", "#49af5d", "#2e8840", "#196127"],
+            },
+            showCurrentDayBorder: true,
+            defaultEntryIntensity: 1,
+            intensityScaleStart: 1,
+            intensityScaleEnd: Math.max(...Object.values(commitCount)),
+            entries: Object.entries(commitCount).map(([date, count]) => ({
+                date,
+                intensity: count,
+                content: count.toString(),
+            })),
+        };
+
+        // Render the heatmap calendar
+        renderHeatmapCalendar(this.container, calendarData);
+    } catch (error) {
+        console.error('Error parsing JSON:', error);
+    }
 });
 
-// Converting commitCount object to table format
-let headers = ["Date", "Commit Count"];
-let elements = Object.entries(commitCount).map(([date, count]) => [date, count]);
-
-// Rendering the table
-dv.table(headers, elements);
-
+// Function to remove BOM from string
+function removeBOM(str) {
+    if (str.charCodeAt(0) === 0xFEFF) {
+        return str.slice(1);
+    }
+    return str;
+}
 ```
 
 
