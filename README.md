@@ -2,12 +2,14 @@
 
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue.svg)
 
-
+[![Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 ![Last Commit](https://img.shields.io/badge/github/last-commit/jontdean/dev/letslearntogether)
+
 ![Issues](https://img.shields.io/github/issues/jontdean/letslearntogether)
 ![Pull Requests](https://img.shields.io/badge/github/issues-pr-raw/jontdean/dev/letslearntogether)
 
-[![Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+
+![GitHub language count](https://img.shields.io/github/languages/count/jontdean/letslearntogether)
 
 
 ## Table of Contents
