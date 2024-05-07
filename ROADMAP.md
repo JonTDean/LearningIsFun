@@ -77,8 +77,6 @@ const calendarData = {
 }
 
 // Ensure the file path is correct and accessible
-```dataviewjs
-
 try {
     // Attempt to fetch the page and display its content
     let page = dv.page("/Data/commits");
@@ -109,5 +107,7 @@ Object.keys(commitCount).forEach(date => {
 
 renderHeatmapCalendar(this.container, calendarData);
 ```
+
+
 
 
