@@ -3,11 +3,9 @@
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue.svg)
 
 
-![Last Commit](https://img.shields.io/badge/github/last-commit/JonTDean/dev/LetsLearnTogether.svg)
-![GitHub labels](https://img.shields.io/badge/github/labels/JonTDean/dev/LetsLearnTogether)
-
-<!-- ![Issues](https://img.shields.io/badge/github/issues/JonTDean/dev/LetsLearnTogether.svg)
-![Pull Requests](https://img.shields.io/badge/github/issues-pr/JonTDean/dev/LetsLearnTogether.svg) -->
+![Last Commit](https://img.shields.io/badge/github/last-commit/jontdean/dev/letslearntogether)
+![Issues](https://img.shields.io/github/issues/jontdean/letslearntogether)
+![Pull Requests](https://img.shields.io/badge/github/issues-pr-raw/jontdean/dev/letslearntogether)
 
 [![Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 
