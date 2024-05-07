@@ -23,21 +23,19 @@
 
 ## Introduction
 
-This repository is a collection of resources for learning together. It is a place to share resources, ask questions, and collaborate on learning projects. The goal is to create a community of learners who can support each other in their learning journey.
+"Let's Learn Together" is a collaborative system that aims to foster a supportive and engaging learning environment for individuals of all skill levels. Whether you're a beginner looking to learn new skills or an experienced professional seeking to expand your knowledge, this project provides a centralized hub for sharing resources, asking questions, and collaborating with like-minded learners.
 
-The resources in this repository are organized by topic. Each topic has its own folder, which contains a README file with links to resources on that topic. You can also create your own folders and add resources to them.
-
-If you have any questions or need help with anything, feel free to ask in the [Discussions]().
+By leveraging the power of community-driven learning, "Let's Learn Together" enables users to access a wide range of learning materials, participate in discussions, and contribute their own expertise. The project's goal is to break down barriers to education and empower individuals to achieve their learning goals through mutual support and collaboration.
 
 ## Getting Started
 
 To get started, simply browse the folders in this repository and find a topic that interests you. Each folder contains a README file with links to resources on that topic. You can also create your own folders and add resources to them.
 
-If you have any questions or need help with anything, feel free to ask in the [Discussions]().
+If you have any questions or need help with anything, feel free to ask in the [Discussions](https://github.com/JonTDean/LetsLearnTogether/discussions).
 
 ## Contributing
 
-If you would like to contribute to this repository, please read the [CONTRIBUTING.md]() file for guidelines on how to do so.
+If you would like to contribute to this repository, please read the [CONTRIBUTING.md](/CONTRIBUTING.md) file for guidelines on how to do so.
 
 ### Contributors ✨
 
