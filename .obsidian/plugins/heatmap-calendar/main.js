@@ -246,7 +246,7 @@ var HeatmapCalendar = class extends import_obsidian2.Plugin {
       yield this.loadSettings();
       this.addSettingTab(new HeatmapCalendarSettingsTab(this.app, this));
       window.renderHeatmapCalendar = (el, calendarData) => {
-        var _a, _b, _c, _d, _e, _f, _g, _h, _i, _j, _k, _l, _m;
+        var _a, _b, _c, _d, _e, _f, _g, _h, _i, _j, _k, _l, _m, _n, _o, _p, _q, _r, _s;
         const mode = (_a = calendarData.mode) != null ? _a : "year";
         const year = (_b = calendarData.year) != null ? _b : this.settings.year;
         const month = (_c = calendarData.month) != null ? _c : 0;
@@ -280,30 +280,90 @@ var HeatmapCalendar = class extends import_obsidian2.Plugin {
         const firstDayOfYear = new Date(Date.UTC(year, 0, 1));
         let numberOfEmptyDaysBeforeYearBegins = (firstDayOfYear.getUTCDay() + 6) % 7;
         const boxes = [];
-        while (numberOfEmptyDaysBeforeYearBegins) {
-          boxes.push({ backgroundColor: "transparent" });
-          numberOfEmptyDaysBeforeYearBegins--;
-        }
-        const lastDayOfYear = new Date(Date.UTC(year, 11, 31));
-        const numberOfDaysInYear = this.getHowManyDaysIntoYear(lastDayOfYear);
-        const todaysDayNumber = this.getHowManyDaysIntoYear(new Date());
-        for (let day = 1; day <= numberOfDaysInYear; day++) {
-          const box = {
-            classNames: []
-          };
-          if (day === todaysDayNumber && showCurrentDayBorder)
-            (_k = box.classNames) == null ? void 0 : _k.push("today");
-          if (mappedEntries[day]) {
-            (_l = box.classNames) == null ? void 0 : _l.push("hasData");
-            const entry = mappedEntries[day];
-            box.date = entry.date;
-            if (entry.content)
-              box.content = entry.content;
-            const currentDayColors = entry.color ? colors[entry.color] : colors[Object.keys(colors)[0]];
-            box.backgroundColor = currentDayColors[entry.intensity - 1];
-          } else
-            (_m = box.classNames) == null ? void 0 : _m.push("isEmpty");
-          boxes.push(box);
+        if (mode === "year") {
+          const lastDayOfYear = new Date(Date.UTC(year, 11, 31));
+          const numberOfDaysInYear = this.getHowManyDaysIntoYear(lastDayOfYear);
+          const todaysDayNumber = this.getHowManyDaysIntoYear(new Date());
+          while (numberOfEmptyDaysBeforeYearBegins) {
+            boxes.push({ backgroundColor: "transparent" });
+            numberOfEmptyDaysBeforeYearBegins--;
+          }
+          for (let day = 1; day <= numberOfDaysInYear; day++) {
+            const box = {
+              classNames: []
+            };
+            if (day === todaysDayNumber && showCurrentDayBorder)
+              (_k = box.classNames) == null ? void 0 : _k.push("today");
+            if (mappedEntries[day]) {
+              (_l = box.classNames) == null ? void 0 : _l.push("hasData");
+              const entry = mappedEntries[day];
+              box.date = entry.date;
+              if (entry.content)
+                box.content = entry.content;
+              const currentDayColors = entry.color ? colors[entry.color] : colors[Object.keys(colors)[0]];
+              box.backgroundColor = currentDayColors[entry.intensity - 1];
+            } else
+              (_m = box.classNames) == null ? void 0 : _m.push("isEmpty");
+            boxes.push(box);
+          }
+        } else if (mode === "month") {
+          const firstDayOfMonth = new Date(Date.UTC(year, month, 1));
+          const lastDayOfMonth = new Date(Date.UTC(year, month + 1, 0));
+          let numberOfEmptyDaysBeforeMonthBegins = (firstDayOfMonth.getUTCDay() + 6) % 7;
+          const numberOfDaysInMonth = this.getHowManyDaysIntoMonth(lastDayOfMonth);
+          const todaysDayNumber = this.getHowManyDaysIntoYear(new Date());
+          while (numberOfEmptyDaysBeforeMonthBegins) {
+            boxes.push({ backgroundColor: "transparent" });
+            numberOfEmptyDaysBeforeMonthBegins--;
+          }
+          for (let day = 1; day <= numberOfDaysInMonth; day++) {
+            const box = {
+              classNames: []
+            };
+            const currentDate = new Date(Date.UTC(year, month, day));
+            const currentDayNumber = this.getHowManyDaysIntoYear(currentDate);
+            if (currentDayNumber === todaysDayNumber && showCurrentDayBorder)
+              (_n = box.classNames) == null ? void 0 : _n.push("today");
+            if (mappedEntries[currentDayNumber]) {
+              (_o = box.classNames) == null ? void 0 : _o.push("hasData");
+              const entry = mappedEntries[currentDayNumber];
+              box.date = entry.date;
+              if (entry.content)
+                box.content = entry.content;
+              const currentDayColors = entry.color ? colors[entry.color] : colors[Object.keys(colors)[0]];
+              box.backgroundColor = currentDayColors[entry.intensity - 1];
+            } else
+              (_p = box.classNames) == null ? void 0 : _p.push("isEmpty");
+            boxes.push(box);
+          }
+        } else if (mode === "week") {
+          const firstDayOfWeek = new Date(Date.UTC(year, 0, (week - 1) * 7 + 1));
+          let numberOfEmptyDaysBeforeWeekBegins = (firstDayOfWeek.getUTCDay() + 6) % 7;
+          const todaysDayNumber = this.getHowManyDaysIntoYear(new Date());
+          while (numberOfEmptyDaysBeforeWeekBegins) {
+            boxes.push({ backgroundColor: "transparent" });
+            numberOfEmptyDaysBeforeWeekBegins--;
+          }
+          for (let day = 1; day <= 7; day++) {
+            const box = {
+              classNames: []
+            };
+            const currentDate = new Date(Date.UTC(year, 0, (week - 1) * 7 + day));
+            const currentDayNumber = this.getHowManyDaysIntoYear(currentDate);
+            if (currentDayNumber === todaysDayNumber && showCurrentDayBorder)
+              (_q = box.classNames) == null ? void 0 : _q.push("today");
+            if (mappedEntries[currentDayNumber]) {
+              (_r = box.classNames) == null ? void 0 : _r.push("hasData");
+              const entry = mappedEntries[currentDayNumber];
+              box.date = entry.date;
+              if (entry.content)
+                box.content = entry.content;
+              const currentDayColors = entry.color ? colors[entry.color] : colors[Object.keys(colors)[0]];
+              box.backgroundColor = currentDayColors[entry.intensity - 1];
+            } else
+              (_s = box.classNames) == null ? void 0 : _s.push("isEmpty");
+            boxes.push(box);
+          }
         }
         const heatmapCalendarGraphDiv = createDiv({
           cls: "heatmap-calendar-graph",
@@ -318,18 +378,80 @@ var HeatmapCalendar = class extends import_obsidian2.Plugin {
           cls: "heatmap-calendar-months",
           parent: heatmapCalendarGraphDiv
         });
-        createEl("li", { text: "Jan", parent: heatmapCalendarMonthsUl });
-        createEl("li", { text: "Feb", parent: heatmapCalendarMonthsUl });
-        createEl("li", { text: "Mar", parent: heatmapCalendarMonthsUl });
-        createEl("li", { text: "Apr", parent: heatmapCalendarMonthsUl });
-        createEl("li", { text: "May", parent: heatmapCalendarMonthsUl });
-        createEl("li", { text: "Jun", parent: heatmapCalendarMonthsUl });
-        createEl("li", { text: "Jul", parent: heatmapCalendarMonthsUl });
-        createEl("li", { text: "Aug", parent: heatmapCalendarMonthsUl });
-        createEl("li", { text: "Sep", parent: heatmapCalendarMonthsUl });
-        createEl("li", { text: "Oct", parent: heatmapCalendarMonthsUl });
-        createEl("li", { text: "Nov", parent: heatmapCalendarMonthsUl });
-        createEl("li", { text: "Dec", parent: heatmapCalendarMonthsUl });
+        if (mode === "year") {
+          createEl("li", {
+            text: "Jan",
+            parent: heatmapCalendarMonthsUl
+          });
+          createEl("li", {
+            text: "Feb",
+            parent: heatmapCalendarMonthsUl
+          });
+          createEl("li", {
+            text: "Mar",
+            parent: heatmapCalendarMonthsUl
+          });
+          createEl("li", {
+            text: "Apr",
+            parent: heatmapCalendarMonthsUl
+          });
+          createEl("li", {
+            text: "May",
+            parent: heatmapCalendarMonthsUl
+          });
+          createEl("li", {
+            text: "Jun",
+            parent: heatmapCalendarMonthsUl
+          });
+          createEl("li", {
+            text: "Jul",
+            parent: heatmapCalendarMonthsUl
+          });
+          createEl("li", {
+            text: "Aug",
+            parent: heatmapCalendarMonthsUl
+          });
+          createEl("li", {
+            text: "Sep",
+            parent: heatmapCalendarMonthsUl
+          });
+          createEl("li", {
+            text: "Oct",
+            parent: heatmapCalendarMonthsUl
+          });
+          createEl("li", {
+            text: "Nov",
+            parent: heatmapCalendarMonthsUl
+          });
+          createEl("li", {
+            text: "Dec",
+            parent: heatmapCalendarMonthsUl
+          });
+        } else if (mode === "month") {
+          const monthName = new Date(Date.UTC(year, month, 1)).toLocaleString("default", { month: "short" });
+          createEl("li", {
+            text: monthName,
+            parent: heatmapCalendarMonthsUl
+          });
+        } else if (mode === "week") {
+          const startDate = new Date(Date.UTC(year, 0, (week - 1) * 7 + 1));
+          const endDate = new Date(Date.UTC(year, 0, (week - 1) * 7 + 7));
+          const monthNames = [];
+          for (let date = startDate; date <= endDate; date.setDate(date.getDate() + 1)) {
+            const monthName = date.toLocaleString("default", {
+              month: "short"
+            });
+            if (!monthNames.includes(monthName)) {
+              monthNames.push(monthName);
+            }
+          }
+          monthNames.forEach((monthName) => {
+            createEl("li", {
+              text: monthName,
+              parent: heatmapCalendarMonthsUl
+            });
+          });
+        }
         const heatmapCalendarDaysUl = createEl("ul", {
           cls: "heatmap-calendar-days",
           parent: heatmapCalendarGraphDiv
@@ -341,6 +463,19 @@ var HeatmapCalendar = class extends import_obsidian2.Plugin {
         createEl("li", { text: "Fri", parent: heatmapCalendarDaysUl });
         createEl("li", { text: "Sat", parent: heatmapCalendarDaysUl });
         createEl("li", { text: "Sun", parent: heatmapCalendarDaysUl });
+        if (mode === "year") {
+          createDiv({
+            cls: "heatmap-calendar-year",
+            text: String(year).slice(2),
+            parent: heatmapCalendarGraphDiv
+          });
+        } else if (mode === "month" || mode === "week") {
+          createDiv({
+            cls: "heatmap-calendar-year",
+            text: String(year),
+            parent: heatmapCalendarGraphDiv
+          });
+        }
         const heatmapCalendarBoxesUl = createEl("ul", {
           cls: "heatmap-calendar-boxes",
           parent: heatmapCalendarGraphDiv
