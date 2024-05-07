@@ -6,6 +6,7 @@
       {
         "id": "33dfbafa4335818d",
         "type": "tabs",
+        "dimension": 74.29643527204503,
         "children": [
           {
             "id": "6c1a68f3439fb82d",
@@ -24,13 +25,16 @@
       {
         "id": "4d83aa49e1e4c103",
         "type": "tabs",
+        "dimension": 25.70356472795497,
         "children": [
           {
             "id": "36dd1aedc9e615ef",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "kanban",
+              "state": {
+                "file": "Kanban/Untitled Kanban.md"
+              }
             }
           }
         ]
@@ -99,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Kanban/Untitled Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Kanban/Untitled Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Kanban/Untitled Kanban.md"
               }
             }
           },
@@ -181,8 +185,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6c1a68f3439fb82d",
+  "active": "36dd1aedc9e615ef",
   "lastOpenFiles": [
+    "Kanban/Untitled Kanban.md",
+    "Kanban",
+    "README.md",
     "Lessons/6_SoftSkills/2_PromptEngineering/GPT4ObsidianPrompt.md",
     "Lessons/6_SoftSkills/2_PromptEngineering/GPT4ObisidianPrompt.md",
     "Lessons/6_SoftSkills/2_PromptEngineering",
@@ -208,7 +215,6 @@
     "Lessons/1_Setup/2_VSCode",
     "Lessons/1_Setup/2_VSCodd",
     "Lessons/1_Setup/1_Git",
-    "Lessons/1_Setup/Git",
     "Lessons/1_Setup/Obsidian/Plugins.md",
     "Lessons/1_Setup/Obsidian/Instructions.md",
     "Lessons/1_Setup/Obsidian/Installation.md",
@@ -217,8 +223,6 @@
     "Lessons/5_SpecificProgramming/4_VideoGames/README.md",
     "Lessons/5_SpecificProgramming/2_MachineLearning/README.md",
     "Lessons/5_SpecificProgramming/1_WebDev/README.md",
-    "Lessons/1_Setup/Obsidian/README.md",
-    "Lessons/5_SpecificProgramming/README.md",
     "media/images/Logos/wv11sb79.bmp",
     "media/images/Logos/cc-nc-sa-logo.png",
     "media/images/logos/cc-nc-sa-logo.png",
