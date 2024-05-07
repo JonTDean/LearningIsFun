@@ -1,8 +1,8 @@
-# Learn Together
+# Let's Learn Together
 
 ## Table of Contents
 
-- [Learn Together](#learn-together)
+- [Let's Learn Together](#lets-learn-together)
 	- [Table of Contents](#table-of-contents)
 	- [Introduction](#introduction)
 	- [Getting Started](#getting-started)
