@@ -181,13 +181,24 @@
       "reference-map:Reference Map": false
     }
   },
-  "active": "6c1a68f3439fb82d",
+  "active": "e81db66e368a7313",
   "lastOpenFiles": [
+    "media/documents",
+    "media/videos",
+    "media/images/wv11sb79.bmp",
+    "media/images",
+    "media",
+    "Lessons/WebDevLearning",
+    "Lessons/TypescriptLearning",
+    "Lessons/MLLearning",
+    "Lessons",
+    "images/Lessons",
+    "images/wv11sb79.bmp",
+    "images",
+    "wv11sb79.bmp",
     "LICENSE.md",
     "Welcome.md",
     "README.md",
-    "MLLearning",
-    "WebDevLearning",
-    "TypescriptLearning"
+    "MLLearning"
   ]
 }

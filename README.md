@@ -1,5 +1,7 @@
 # Let's Learn Together
 
+![CC BY-NC-SA 4.0](/media/images/wv11sb79.bmp)
+ 
 ## Table of Contents
 
 - [Let's Learn Together](#lets-learn-together)
