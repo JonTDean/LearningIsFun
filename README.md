@@ -3,9 +3,11 @@
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue.svg)
 
 
-![Last Commit](https://img.shields.io/github/last-commit/JonTDean/dev/LetsLearnTogether.svg)
-![Issues](https://img.shields.io/github/issues/JonTDean/dev/LetsLearnTogether.svg)
-![Pull Requests](https://img.shields.io/github/issues-pr/JonTDean/dev/LetsLearnTogether.svg)
+![Last Commit](https://img.shields.io/badge/github/last-commit/JonTDean/dev/LetsLearnTogether.svg)
+![GitHub labels](https://img.shields.io/badge/github/labels/JonTDean/dev/LetsLearnTogether)
+
+<!-- ![Issues](https://img.shields.io/badge/github/issues/JonTDean/dev/LetsLearnTogether.svg)
+![Pull Requests](https://img.shields.io/badge/github/issues-pr/JonTDean/dev/LetsLearnTogether.svg) -->
 
 [![Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 
@@ -39,7 +41,7 @@ If you would like to contribute to this repository, please read the [CONTRIBUTIN
 
 ## Contributors ✨
 
-Thanks goes to these wonderful people 🚧:
+Thanks goes to these wonderful people 💼:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
