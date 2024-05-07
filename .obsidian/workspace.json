@@ -169,6 +169,7 @@
   },
   "active": "066ca6c67dac00a3",
   "lastOpenFiles": [
+    "Data/commits.md",
     "Scripts/UpdateCommits.ps1",
     "Data",
     "README.md",
@@ -197,7 +198,6 @@
     "Kanban",
     "Lessons/6_SoftSkills/2_PromptEngineering/GPT4ObsidianPrompt.md",
     "Lessons/6_SoftSkills/2_PromptEngineering/GPT4ObisidianPrompt.md",
-    "Lessons/6_SoftSkills/2_PromptEngineering",
     "ROADMAP.md",
     "Lessons/6_SoftSkills/1_Git/ExampleSuggestionTemplate.md",
     "Lessons/6_SoftSkills/ExampleSuggestionTemplate.md",
