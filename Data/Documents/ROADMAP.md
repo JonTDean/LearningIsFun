@@ -70,7 +70,7 @@ dv.span("**Commit Activity**");
 const vaultDir = window.app.vault.adapter.getBasePath();
 
 // Async read file
-fs.readFile(path.join(vaultDir, 'Data/commits.json'), 'utf8', async (err, data) => {
+fs.readFile(path.join(vaultDir, 'Data/Files/commits.json'), 'utf8', async (err, data) => {
     if (err) {
         console.error('Error reading file:', err);
         return;
