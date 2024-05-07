@@ -60,8 +60,6 @@ This roadmap outlines the development and refinement stages for the educational 
 
 ## Heatmap of Activity
 
-
-
 ```dataviewjs
 const fs = require('fs');
 const path = require('path');
