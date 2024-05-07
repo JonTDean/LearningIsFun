@@ -95,12 +95,6 @@ The process described here has several goals:
 - Engage the community in working toward the best possible LLT
 - Enable a sustainable system for LLT's maintainers to review contributions
 
-Please follow these steps to have your contribution considered by the maintainers:
-
-- Follow all instructions in [the template](LINK_TO_PULL_REQUEST_TEMPLATE)
-- Follow the [styleguides](LINK_TO_STYLEGUIDE)
-- After you submit your pull request, verify that all [status checks](LINK_TO_STATUS_CHECKS) are passing <details><summary>What if the status checks are failing?</summary>If a status check is failing, and you believe that the failure is unrelated to your change, please leave a comment on the pull request explaining why you believe the failure is unrelated. A maintainer will re-evaluate the status check for you. </details>
-
 **What does it mean if a maintainer changes my pull request?**
 
 - Maintainers may add commits to your pull request to help move the process along. These can be things like fixing tests, adding documentation, and fixing style issues.
