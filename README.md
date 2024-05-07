@@ -51,6 +51,7 @@ To get started, simply browse the folders in this repository and find a topic th
 		```
 - Navigate to folder that has topic of interest
 	- I.e. `cd Lessons/1_Setup/3_Obsidian/Plugins.md`
+
 If you have any questions or need help with anything, feel free to ask in the [Discussions](https://github.com/JonTDean/LetsLearnTogether/discussions).
 
 <!-- ## Acknowledgements
