@@ -8,7 +8,7 @@ $rootDirectory = Join-Path -Path $currentDirectory -ChildPath "Lessons"
 $userFolderName = "user_files"
 
 # Define a list of folder names to skip
-$skipList = @("ExcludeFolder1", "ExcludeFolder2")
+$skipList = @()
 
 # Get all directories under the root directory, recursively
 $directories = Get-ChildItem -Path $rootDirectory -Directory -Recurse

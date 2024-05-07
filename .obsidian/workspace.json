@@ -169,7 +169,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "markdown-importer:Open format converter": false,
-      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -178,11 +177,15 @@
       "command-palette:Open command palette": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "reference-map:Reference Map": false
+      "reference-map:Reference Map": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "6c1a68f3439fb82d",
   "lastOpenFiles": [
+    "Lessons/1_Setup/Obsidian/Plugins.md",
+    "Lessons/1_Setup/Obsidian/Instructions.md",
+    "Lessons/1_Setup/Obsidian/Installation.md",
     "Lessons/5_SpecificProgramming/1_WebDev/Typescript/user_files",
     "Lessons/5_SpecificProgramming/1_WebDev/Frameworks/user_files",
     "Lessons/1_Setup/Obsidian/Plugins/user_files",
@@ -200,7 +203,6 @@
     "Lessons/1_Setup/Obsidian/README.md",
     "Lessons/1_Setup/Obsidian/Plugins",
     "Lessons/5_SpecificProgramming/README.md",
-    "Lessons/5_SpecificProgramming/4_VideoGames",
     "Lessons/3_CommandLine/README.md",
     "Lessons/4_GeneralProgramming/README.md",
     "Lessons/2_DevOps/README.md",
@@ -219,8 +221,6 @@
     "lessons/5_SpecificProgramming/1_WebDev/README.md",
     "lessons/5_SpecificProgramming/README.md",
     "lessons/4_GeneralProgramming/README.md",
-    "lessons/3_CommandLine/README.md",
-    "lessons/2_DevOps/README.md",
     "media/images/logos/cc-nc-sa-logo.png",
     "media/images/logos/cc-nc-sa-logo-small.png",
     "media/images/logos/cc-b-nc-sa-logo.png",
