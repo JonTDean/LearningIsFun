@@ -1,0 +1,35 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "JonTDean",
+      "name": "JonTDean",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32342753?v=4",
+      "profile": "https://github.com/JonTDean",
+      "contributions": [
+        "projectManagement"
+      ]
+    },
+    {
+      "login": "Meowlester",
+      "name": "Meowlester",
+      "avatar_url": "https://avatars.githubusercontent.com/u/137238814?v=4",
+      "profile": "https://github.com/Meowlester",
+      "contributions": [
+        "projectManagement"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "LetsLearnTogether",
+  "projectOwner": "JonTDean"
+}

@@ -7,9 +7,7 @@
 ![Issues](https://img.shields.io/github/issues/JonTDean/dev/LetsLearnTogether.svg)
 ![Pull Requests](https://img.shields.io/github/issues-pr/JonTDean/dev/LetsLearnTogether.svg)
 
-![Contributors](https://img.shields.io/github/all-contributors/JonTDean/LetsLearnTogether)
-
-
+[![Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 
 
 ## Table of Contents
@@ -19,6 +17,7 @@
 	- [Introduction](#introduction)
 	- [Getting Started](#getting-started)
 	- [Contributing](#contributing)
+	- [Contributors ✨](#contributors-)
 
 ## Introduction
 
@@ -38,4 +37,28 @@ If you have any questions or need help with anything, feel free to ask in the [D
 
 If you would like to contribute to this repository, please read the [CONTRIBUTING.md]() file for guidelines on how to do so.
 
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/JonTDean"><img src="https://avatars.githubusercontent.com/u/32342753?v=4?s=100" width="100px;" alt="JonTDean"/><br /><sub><b>JonTDean</b></sub></a><br /><a href="#projectManagement-JonTDean" title="Project Management">📆</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Meowlester"><img src="https://avatars.githubusercontent.com/u/137238814?v=4?s=100" width="100px;" alt="Meowlester"/><br /><sub><b>Meowlester</b></sub></a><br /><a href="#projectManagement-Meowlester" title="Project Management">📆</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 ![CC BY-NC-SA 4.0](/media/images/logos/cc-nc-sa-logo.png)
