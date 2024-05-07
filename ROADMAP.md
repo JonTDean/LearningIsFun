@@ -67,8 +67,15 @@ dv.span("**Commit Activity**");
 
 
 // Directly access the file from the root of the vault
-let page = dv.page("Data/commits");
+let page = await dv.view("Data/commits.md");
 console.log(page);
+```
+
+
+
+
+
+```
 
 let commitText = page.file.content;
 dv.paragraph("File content preview: " + commitText.slice(0, 200));
@@ -94,10 +101,7 @@ Object.keys(commitCount).forEach(date => {
 });
 
 dv.renderCalendar(this.container, calendarData);
-
 ```
-
-
 
 
 

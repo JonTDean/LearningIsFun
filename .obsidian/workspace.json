@@ -170,8 +170,9 @@
   "active": "91eb1980cc83035c",
   "lastOpenFiles": [
     "Data/commits.md",
-    "Data/commits.csv",
     "ROADMAP.md",
+    "Data/commits.json",
+    "Data/commits.csv",
     "Scripts/UpdateCommits.ps1",
     "Data",
     "README.md",
@@ -193,7 +194,6 @@
     "Kanban/Meta/ScriptsKanban.md",
     "Kanban/Lessons/6_SoftSkillsKanban.md",
     "Kanban/Meta",
-    "Kanban/Lessons",
     "Kanban/Lessons/2_DevOpsKanban.md",
     "Kanban/Untitled.md",
     "Kanban/Lessons/0_LessonsKanban.md",
