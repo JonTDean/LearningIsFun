@@ -85,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ROADMAP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ROADMAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ROADMAP.md"
+                "file": "test.md"
               }
             }
           },
@@ -167,11 +165,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "91eb1980cc83035c",
+  "active": "e81db66e368a7313",
   "lastOpenFiles": [
-    "Data/commits.md",
     "ROADMAP.md",
+    "test.md",
     "Data/commits.json",
+    "Data/branchCommits.json",
+    "Data/commits.md",
     "Data/commits.csv",
     "Scripts/UpdateCommits.ps1",
     "Data",
@@ -193,7 +193,6 @@
     "Kanban/Lessons/1_SetupKanban.md",
     "Kanban/Meta/ScriptsKanban.md",
     "Kanban/Lessons/6_SoftSkillsKanban.md",
-    "Kanban/Meta",
     "Kanban/Lessons/2_DevOpsKanban.md",
     "Kanban/Untitled.md",
     "Kanban/Lessons/0_LessonsKanban.md",

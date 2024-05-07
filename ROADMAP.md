@@ -65,43 +65,39 @@ This roadmap outlines the development and refinement stages for the educational 
 ```dataviewjs
 dv.span("**Commit Activity**");
 
+// Fetch the JSON file using a relative path
+let response = await fetch("./Data/commits.json");
+if (!response.ok) {
+    console.error("Failed to fetch commits data");
+    return;
+}
 
-// Directly access the file from the root of the vault
-let page = await dv.view("Data/commits.md");
-console.log(page);
-```
+// Parse the JSON response
+let commitData = await response.json();
 
-
-
-
-
-```
-
-let commitText = page.file.content;
-dv.paragraph("File content preview: " + commitText.slice(0, 200));
-
-let commitLines = commitText.split('\n');
+// Extracting unique dates and their commit counts
 let commitCount = {};
-
-commitLines.forEach(line => {
-	let match = line.match(/\*\*(\d{4}-\d{2}-\d{2})\*\*/);
-	if (match) {
-		let date = match[1];
-		commitCount[date] = (commitCount[date] || 0) + 1;
-	}
+commitData.forEach(commit => {
+    let date = commit.date.split('T')[0]; // Extracting date part
+    commitCount[date] = (commitCount[date] || 0) + 1;
 });
 
-Object.keys(commitCount).forEach(date => {
-	dv.calendarData.entries.push({
-		date: date,
-		intensity: commitCount[date],
-		content: "🔧",
-		color: "blue",
-	});
-});
+// Converting commitCount object to table format
+let headers = ["Date", "Commit Count"];
+let elements = Object.entries(commitCount).map(([date, count]) => [date, count]);
 
-dv.renderCalendar(this.container, calendarData);
+// Rendering the table
+dv.table(headers, elements);
+
 ```
+
+
+
+
+
+
+
+
 
 
 
