@@ -59,4 +59,51 @@ This roadmap outlines the development and refinement stages for the educational 
 - [View Tasks](obsidian://tasks)
 
 ## Heatmap of Activity
-![Heatmap Calendar](obsidian://heatmap-calendar)
+
+
+```dataviewjs
+dv.span("**Commit Activity**")
+const calendarData = {
+    year: 2024,  // Set the year you are interested in
+    colors: {
+        blue: ["#8cb9ff", "#69a3ff", "#428bff", "#1872ff", "#0058e2"],
+    },
+    showCurrentDayBorder: true,
+    defaultEntryIntensity: 1,
+    intensityScaleStart: 1,
+    intensityScaleEnd: 10,  // Adjust based on expected maximum daily commits
+    entries: [],
+}
+
+// Parse the commit log from the markdown file
+let commitText = dv.pages('./Data/commits')[0].file.content;
+let commitLines = commitText.split('\n');
+let commitCount = {};
+
+// Count commits per date
+commitLines.forEach(line => {
+    let match = line.match(/\*\*(\d{4}-\d{2}-\d{2})\*\*/);
+    if (match) {
+        let date = match[1];
+        if (commitCount[date]) {
+            commitCount[date] += 1;
+        } else {
+            commitCount[date] = 1;
+        }
+    }
+});
+
+// Populate the calendar data
+Object.keys(commitCount).forEach(date => {
+    calendarData.entries.push({
+        date: date,
+        intensity: commitCount[date],
+        content: "🔧",
+        color: "blue",
+    });
+});
+
+renderHeatmapCalendar(this.container, calendarData);
+```
+
+
