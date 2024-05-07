@@ -8,6 +8,15 @@
   "commitConvention": "angular",
   "contributors": [
     {
+      "login": "JonTDean",
+      "name": "JonTDean",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32342753?v=4",
+      "profile": "https://github.com/JonTDean",
+      "contributions": [
+        "projectManagement"
+      ]
+    },
+    {
       "login": "Meowlester",
       "name": "Meowlester",
       "avatar_url": "https://avatars.githubusercontent.com/u/137238814?v=4",

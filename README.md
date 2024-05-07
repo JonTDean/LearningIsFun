@@ -34,6 +34,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/JonTDean"><img src="https://avatars.githubusercontent.com/u/32342753?v=4?s=100" width="100px;" alt="JonTDean"/><br /><sub><b>JonTDean</b></sub></a><br /><a href="#projectManagement-JonTDean" title="Project Management">📆</a></td>
+    </tr>
+    <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Meowlester"><img src="https://avatars.githubusercontent.com/u/137238814?v=4?s=100" width="100px;" alt="Meowlester"/><br /><sub><b>Meowlester</b></sub></a><br /><a href="#projectManagement-Meowlester" title="Project Management">📆</a></td>
     </tr>
   </tbody>
