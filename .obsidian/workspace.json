@@ -181,8 +181,11 @@
       "reference-map:Reference Map": false
     }
   },
-  "active": "e81db66e368a7313",
+  "active": "6c1a68f3439fb82d",
   "lastOpenFiles": [
+    "Scripts/UserFolderGen.ps1",
+    "Scripts/UserFolderGen.sh",
+    "Scripts/LessonsFolder.sh",
     "Lessons/5_SpecificProgramming/1_WebDev/Typescript/README.md",
     "Lessons/1_Setup/Obsidian/Plugins/Instructions.md",
     "Lessons/5_SpecificProgramming/4_VideoGames/README.md",
@@ -203,8 +206,6 @@
     "Lessons/1_Setup/README.md",
     "Lessons/1_Setup/Obsidian",
     "Lessons/README.md",
-    "Lessons/5_SpecificProgramming",
-    "Lessons/3_CommandLine",
     "media/images/Logos/wv11sb79.bmp",
     "media/images/Logos/cc-nc-sa-logo.png",
     "lessons/1_Setup/Obsidian/Plugins/Instructions.md",
@@ -220,7 +221,6 @@
     "lessons/4_GeneralProgramming/README.md",
     "lessons/3_CommandLine/README.md",
     "lessons/2_DevOps/README.md",
-    "lessons/1_Setup/README.md",
     "media/images/logos/cc-nc-sa-logo.png",
     "media/images/logos/cc-nc-sa-logo-small.png",
     "media/images/logos/cc-b-nc-sa-logo.png",
