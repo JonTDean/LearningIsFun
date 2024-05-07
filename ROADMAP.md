@@ -63,7 +63,7 @@ This roadmap outlines the development and refinement stages for the educational 
 
 
 ```dataviewjs
-dv.span("**Commit Activity**")
+dv.span("**Commit Activity**");
 const calendarData = {
     year: 2024,
     colors: {
@@ -77,49 +77,48 @@ const calendarData = {
 }
 
 try {
-    // Attempt to fetch the page and use its content
-	try {
-	    // Attempt to fetch the page and display a preview of its content
-	    let page = dv.page("./Data/commits");
-	    if (page.file && page.file.content) {
-	        dv.paragraph("File content preview: " + page.file.content.slice(0, 200));
-	    } else {
-	        dv.paragraph("No content available in the file or file not found.");
-	    }
+    // Fetch the page and display a preview of its content
+    let page = dv.page("Data/commits");
+    if (page.file && page.file.content) {
+        dv.paragraph("File content preview: " + page.file.content.slice(0, 200));
 
-		let commitText = page.file.content;
-	    let commitLines = commitText.split('\n');
-	    let commitCount = {};
-	
-	    commitLines.forEach(line => {
-	        let match = line.match(/\*\*(\d{4}-\d{2}-\d{2})\*\*/);
-	        if (match) {
-	            let date = match[1];
-	            commitCount[date] = (commitCount[date] || 0) + 1;
-	        }
-	    });
-	
-	    // Populate the calendar data
-	    Object.keys(commitCount).forEach(date => {
-	        calendarData.entries.push({
-	            date: date,
-	            intensity: commitCount[date],
-	            content: "🔧",
-	            color: "blue",
-	        });
-	    });
+        let commitText = page.file.content;
+        let commitLines = commitText.split('\n');
+        let commitCount = {};
+    
+        commitLines.forEach(line => {
+            let match = line.match(/\*\*(\d{4}-\d{2}-\d{2})\*\*/);
+            if (match) {
+                let date = match[1];
+                commitCount[date] = (commitCount[date] || 0) + 1;
+            }
+        });
+    
+        // Populate the calendar data
+        Object.keys(commitCount).forEach(date => {
+            calendarData.entries.push({
+                date: date,
+                intensity: commitCount[date],
+                content: "🔧",
+                color: "blue",
+            });
+        });
 
-	    renderHeatmapCalendar(this.container, calendarData);
-	} catch (error) {
-	    dv.paragraph("Error fetching file: " + error.toString());
-	}
-
+        renderHeatmapCalendar(this.container, calendarData);
+    } else {
+        dv.paragraph("No content available in the file or file not found.");
+    }
 } catch (error) {
     dv.paragraph("Error: " + error.toString());
 }
 
-
 ```
+
+
+
+
+
+
 
 
 
