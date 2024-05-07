@@ -1,0 +1,4 @@
+# User Files
+./user_files/*
+**/user_files/*
+**/**/user_files/*
