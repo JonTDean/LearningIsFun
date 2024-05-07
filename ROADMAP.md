@@ -91,7 +91,7 @@ fs.readFile(path.join(vaultDir, 'Data/commits.json'), 'utf8', async (err, data) 
 
         // Prepare calendar data
         const calendarData = {
-            year: new Date().getFullYear(),
+            month: new Date().getMonth(),
             colors: {
                 green: ["#c6e48b", "#7bc96f", "#49af5d", "#2e8840", "#196127"],
             },
