@@ -4,37 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "33dfbafa4335818d",
+        "id": "e834b81dad408548",
         "type": "tabs",
-        "dimension": 74.29643527204503,
         "children": [
           {
-            "id": "6c1a68f3439fb82d",
+            "id": "066ca6c67dac00a3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "4d83aa49e1e4c103",
-        "type": "tabs",
-        "dimension": 25.70356472795497,
-        "children": [
-          {
-            "id": "36dd1aedc9e615ef",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "Kanban/Untitled Kanban.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -103,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kanban/Untitled Kanban.md",
+                "file": "Kanban/Lessons/5_SpecificProgrammingKanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kanban/Untitled Kanban.md",
+                "file": "Kanban/Lessons/5_SpecificProgrammingKanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kanban/Untitled Kanban.md"
+                "file": "Kanban/Lessons/5_SpecificProgrammingKanban.md"
               }
             }
           },
@@ -185,9 +163,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "36dd1aedc9e615ef",
+  "active": "e81db66e368a7313",
   "lastOpenFiles": [
-    "Kanban/Untitled Kanban.md",
+    "Kanban/Lessons/4_GeneralProgrammingKanban.md",
+    "Kanban/Lessons/5_SpecificProgrammingKanban.md",
+    "Kanban/Lessons/3_CommandLineKanban.md",
+    "Kanban/Lessons/1_SetupKanban.md",
+    "Kanban/Meta/ScriptsKanban.md",
+    "Kanban/Lessons/6_SoftSkillsKanban.md",
+    "Kanban/Meta",
+    "Kanban/Lessons",
+    "Kanban/Lessons/2_DevOpsKanban.md",
+    "Kanban/Untitled.md",
+    "Kanban/Lessons/0_LessonsKanban.md",
     "Kanban",
     "README.md",
     "Lessons/6_SoftSkills/2_PromptEngineering/GPT4ObsidianPrompt.md",
@@ -213,16 +201,6 @@
     "Lessons/1_Setup/3_Obsidian/Installation.md",
     "Lessons/1_Setup/3_Obsidian",
     "Lessons/1_Setup/2_VSCode",
-    "Lessons/1_Setup/2_VSCodd",
-    "Lessons/1_Setup/1_Git",
-    "Lessons/1_Setup/Obsidian/Plugins.md",
-    "Lessons/1_Setup/Obsidian/Instructions.md",
-    "Lessons/1_Setup/Obsidian/Installation.md",
-    "Lessons/5_SpecificProgramming/1_WebDev/Typescript/README.md",
-    "Lessons/1_Setup/Obsidian/Plugins/Instructions.md",
-    "Lessons/5_SpecificProgramming/4_VideoGames/README.md",
-    "Lessons/5_SpecificProgramming/2_MachineLearning/README.md",
-    "Lessons/5_SpecificProgramming/1_WebDev/README.md",
     "media/images/Logos/wv11sb79.bmp",
     "media/images/Logos/cc-nc-sa-logo.png",
     "media/images/logos/cc-nc-sa-logo.png",

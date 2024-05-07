@@ -3,25 +3,29 @@
 ## Overview
 This roadmap outlines the development and refinement stages for the educational content structured in the `Lessons` directory.
 
-### Setup Lessons
+
+### Lessons
+
+#### Setup Lessons
 - [ ] Complete all READMEs
 - [ ] Review and finalize installation guides
 - Tasks:
     - [ ] Update `ObsidianInstallation.md` for latest plugin compatibility
-- Progress: `Kanban Link`
+- Progress: [`Kanban Link`](/Kanban/Lessons/0_Setup.md)
 
-### DevOps
+#### SetupEnvironment
+#### DevOps
 - [ ] Define key DevOps concepts to cover
 - [ ] Draft initial README
 - Calendar: `Due Date`
-- Progress: `Kanban Link`
+- Progress: [`Kanban Link`](/Kanban/Lessons/0_Setup.md)
 
-### Specific Programming Topics
+#### Specific Programming Topics
 - [ ] Web Development: Complete frameworks overview
 - [ ] Machine Learning & Data Science: Outline core algorithms and techniques
 - Progress Tracker: `View in Tracker Plugin`
 
-### Soft Skills
+#### Soft Skills
 - [ ] Expand Git templates
 - [ ] Develop advanced prompt engineering lessons for GPT-4
 - Progress: `Kanban Link`
