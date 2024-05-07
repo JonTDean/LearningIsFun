@@ -3,11 +3,11 @@
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue.svg)
 
 
-![Last Commit](https://img.shields.io/github/last-commit/JonTDean/dev/LetsLearnTogether)
-![Issues](https://img.shields.io/github/issues/JonTDean/dev/LetsLearnTogether)
-![Pull Requests](https://img.shields.io/github/issues-pr/JonTDean/dev/LetsLearnTogether)
+![Last Commit](https://img.shields.io/github/last-commit/JonTDean/dev/LetsLearnTogether.svg)
+![Issues](https://img.shields.io/github/issues/JonTDean/dev/LetsLearnTogether.svg)
+![Pull Requests](https://img.shields.io/github/issues-pr/JonTDean/dev/LetsLearnTogether.svg)
 
-![Contributors](https://img.shields.io/github/contributors/JonTDean/dev/LetsLearnTogether)
+![Contributors](https://img.shields.io/github/all-contributors/JonTDean/LetsLearnTogether)
 
 
 
