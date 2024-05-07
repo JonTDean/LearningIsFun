@@ -64,55 +64,41 @@ This roadmap outlines the development and refinement stages for the educational 
 
 ```dataviewjs
 dv.span("**Commit Activity**");
-const calendarData = {
-    year: 2024,
-    colors: {
-        blue: ["#8cb9ff", "#69a3ff", "#428bff", "#1872ff", "#0058e2"],
-    },
-    showCurrentDayBorder: true,
-    defaultEntryIntensity: 1,
-    intensityScaleStart: 1,
-    intensityScaleEnd: 10,
-    entries: [],
-}
 
-try {
-    // Fetch the page and display a preview of its content
-    let page = dv.page("Data/commits");
-    if (page.file && page.file.content) {
-        dv.paragraph("File content preview: " + page.file.content.slice(0, 200));
 
-        let commitText = page.file.content;
-        let commitLines = commitText.split('\n');
-        let commitCount = {};
-    
-        commitLines.forEach(line => {
-            let match = line.match(/\*\*(\d{4}-\d{2}-\d{2})\*\*/);
-            if (match) {
-                let date = match[1];
-                commitCount[date] = (commitCount[date] || 0) + 1;
-            }
-        });
-    
-        // Populate the calendar data
-        Object.keys(commitCount).forEach(date => {
-            calendarData.entries.push({
-                date: date,
-                intensity: commitCount[date],
-                content: "🔧",
-                color: "blue",
-            });
-        });
+// Directly access the file from the root of the vault
+let page = dv.page("Data/commits");
+console.log(page);
 
-        renderHeatmapCalendar(this.container, calendarData);
-    } else {
-        dv.paragraph("No content available in the file or file not found.");
-    }
-} catch (error) {
-    dv.paragraph("Error: " + error.toString());
-}
+let commitText = page.file.content;
+dv.paragraph("File content preview: " + commitText.slice(0, 200));
+
+let commitLines = commitText.split('\n');
+let commitCount = {};
+
+commitLines.forEach(line => {
+	let match = line.match(/\*\*(\d{4}-\d{2}-\d{2})\*\*/);
+	if (match) {
+		let date = match[1];
+		commitCount[date] = (commitCount[date] || 0) + 1;
+	}
+});
+
+Object.keys(commitCount).forEach(date => {
+	dv.calendarData.entries.push({
+		date: date,
+		intensity: commitCount[date],
+		content: "🔧",
+		color: "blue",
+	});
+});
+
+dv.renderCalendar(this.container, calendarData);
 
 ```
+
+
+
 
 
 
