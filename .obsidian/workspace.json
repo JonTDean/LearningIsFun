@@ -11,8 +11,12 @@
             "id": "066ca6c67dac00a3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ROADMAP.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kanban/Lessons/5_SpecificProgrammingKanban.md",
+                "file": "ROADMAP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kanban/Lessons/5_SpecificProgrammingKanban.md",
+                "file": "ROADMAP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kanban/Lessons/5_SpecificProgrammingKanban.md"
+                "file": "ROADMAP.md"
               }
             }
           },
@@ -163,10 +167,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e81db66e368a7313",
+  "active": "066ca6c67dac00a3",
   "lastOpenFiles": [
-    "Kanban/Lessons/4_GeneralProgrammingKanban.md",
+    "README.md",
     "Kanban/Lessons/5_SpecificProgrammingKanban.md",
+    "Kanban/Lessons/1_InitialSetupKanban.md",
+    "Lessons/1_InitialSetup/3_Obsidian/Plugins.md",
+    "Lessons/1_InitialSetup/3_Obsidian/ObsidianInstallation.md",
+    "Lessons/1_InitialSetup/1_Git/InstallationWindowsWSL.md",
+    "Lessons/1_InitialSetup/1_Git/InstallationWindows.md",
+    "Lessons/1_InitialSetup/README.md",
+    "Lessons/1_InitialSetup/2_VSCode",
+    "Lessons/1_InitialSetup/3_Obsidian",
+    "Lessons/1_InitialSetup/4_Figma",
+    "Lessons/1_InitialSetup/1_Git",
+    "Lessons/1_InitialSetup",
+    "Kanban/Lessons/4_GeneralProgrammingKanban.md",
     "Kanban/Lessons/3_CommandLineKanban.md",
     "Kanban/Lessons/1_SetupKanban.md",
     "Kanban/Meta/ScriptsKanban.md",
@@ -177,7 +193,6 @@
     "Kanban/Untitled.md",
     "Kanban/Lessons/0_LessonsKanban.md",
     "Kanban",
-    "README.md",
     "Lessons/6_SoftSkills/2_PromptEngineering/GPT4ObsidianPrompt.md",
     "Lessons/6_SoftSkills/2_PromptEngineering/GPT4ObisidianPrompt.md",
     "Lessons/6_SoftSkills/2_PromptEngineering",
@@ -187,20 +202,9 @@
     "Lessons/6_SoftSkills/1_Git/BugReportTemplate.md",
     "Lessons/6_SoftSkills/1_Git/ContributingTemplate.md",
     "Lessons/6_SoftSkills/1_Git",
-    "Lessons/6_SoftSkills",
     "code_of_conduct.md",
     "CONTRIBUTING.md",
     "Lessons/1_Setup/3_Obsidian/ObsidianInstallation.md",
-    "Lessons/1_Setup/1_Git/InstallationWindowsWSL.md",
-    "Lessons/1_Setup/1_Git/InstallationWindowsWSL",
-    "Lessons/1_Setup/1_Git/InstallationWindows.md",
-    "Lessons/1_Setup/1_Git/Installation.md",
-    "Lessons/1_Setup/4_Figma",
-    "Lessons/1_Setup/3_Obsidian/README.md",
-    "Lessons/1_Setup/3_Obsidian/Plugins.md",
-    "Lessons/1_Setup/3_Obsidian/Installation.md",
-    "Lessons/1_Setup/3_Obsidian",
-    "Lessons/1_Setup/2_VSCode",
     "media/images/Logos/wv11sb79.bmp",
     "media/images/Logos/cc-nc-sa-logo.png",
     "media/images/logos/cc-nc-sa-logo.png",
