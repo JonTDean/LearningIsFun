@@ -1,12 +1,15 @@
 # Let's Learn Together
 
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue.svg)
-![Contributors](https://img.shields.io/github/contributors/JonTDean/dev/LetsLearnTogether)
+
+
 ![Last Commit](https://img.shields.io/github/last-commit/JonTDean/dev/LetsLearnTogether)
 ![Issues](https://img.shields.io/github/issues/JonTDean/dev/LetsLearnTogether)
 ![Pull Requests](https://img.shields.io/github/issues-pr/JonTDean/dev/LetsLearnTogether)
 
-![CC BY-NC-SA 4.0](/media/images/logos/cc-nc-sa-logo.png)
+![Contributors](https://img.shields.io/github/contributors/JonTDean/dev/LetsLearnTogether)
+
+
 
 ## Table of Contents
 
@@ -33,3 +36,5 @@ If you have any questions or need help with anything, feel free to ask in the [D
 ## Contributing
 
 If you would like to contribute to this repository, please read the [CONTRIBUTING.md]() file for guidelines on how to do so.
+
+![CC BY-NC-SA 4.0](/media/images/logos/cc-nc-sa-logo.png)
