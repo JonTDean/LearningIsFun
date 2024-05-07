@@ -1,7 +1,7 @@
 # Let's Learn Together
 
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue.svg)
-![Contributors](https://img.shields.io/github/contributors/JonTDean/dev/LetsLearnTogether)
+![[Contributors](https://img.shields.io/github/contributors/JonTDean/dev/LetsLearnTogether)](https://github.com/JonTDean/LetsLearnTogether/graphs/contributors)
 ![Last Commit](https://img.shields.io/github/last-commit/JonTDean/dev/LetsLearnTogether)
 ![Issues](https://img.shields.io/github/issues/JonTDean/dev/LetsLearnTogether)
 ![Pull Requests](https://img.shields.io/github/issues-pr/JonTDean/dev/LetsLearnTogether)
