@@ -64,7 +64,7 @@ We also want to thank the open-source community for their continuous support and
 
 ## Contributing
 
-If you would like to contribute to this repository, please read the [CONTRIBUTING.md](Data\Documents\CONTRIBUTING.md) file for guidelines on how to do so.
+If you would like to contribute to this repository, please read the [CONTRIBUTING.md](Data/Documents/CONTRIBUTING.md) file for guidelines on how to do so.
 
 ### Contributors ✨
 
@@ -93,4 +93,4 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). You are free to share and adapt the material for non-commercial purposes, as long as you give appropriate credit and distribute your contributions under the same license.
 
-Please see the [LICENSE](Data\Documents\LICENSE.md) file for more details.
+Please see the [LICENSE](Data/Documents/LICENSE.md) file for more details.
