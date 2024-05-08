@@ -59,6 +59,11 @@ This roadmap outlines the development and refinement stages for the educational 
 - [View Tasks](obsidian://tasks)
 
 ## Heatmap of Activity
+To measure the heatmap activity of this roadmap run: 
+- Windows
+```powershell
+./Data/Scripts/GenerateTotalCommits.ps1
+```
 
 ```dataviewjs
 const fs = require('fs');

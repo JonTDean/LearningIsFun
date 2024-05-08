@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "9cf2450289b4bd0b",
+        "id": "c25520aec5c01dd7",
         "type": "tabs",
         "children": [
           {
-            "id": "91eb1980cc83035c",
+            "id": "d07315ad75b3f2c5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           },
           {
@@ -159,8 +167,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8ecea3a023aef342",
+  "active": "d07315ad75b3f2c5",
   "lastOpenFiles": [
+    "Lessons/1_InitialSetup/2_VSCode/InstallationVSCode.md",
+    "Data/Documents/ROADMAP.md",
+    "Data/Documents/CONTRIBUTING.md",
+    "Data/Documents/LICENSE.md",
+    "README.md",
     "test.md",
     "ROADMAP.md",
     "Data/commits.json",
@@ -169,7 +182,6 @@
     "Data/commits.csv",
     "Scripts/UpdateCommits.ps1",
     "Data",
-    "README.md",
     "Kanban/Lessons/5_SpecificProgrammingKanban.md",
     "Kanban/Lessons/1_InitialSetupKanban.md",
     "Lessons/1_InitialSetup/3_Obsidian/Plugins.md",
@@ -193,10 +205,6 @@
     "Lessons/6_SoftSkills/2_PromptEngineering/GPT4ObsidianPrompt.md",
     "Lessons/6_SoftSkills/2_PromptEngineering/GPT4ObisidianPrompt.md",
     "Lessons/6_SoftSkills/1_Git/ExampleSuggestionTemplate.md",
-    "Lessons/6_SoftSkills/ExampleSuggestionTemplate.md",
-    "Lessons/6_SoftSkills/1_Git/BugReportTemplate.md",
-    "Lessons/6_SoftSkills/1_Git/ContributingTemplate.md",
-    "code_of_conduct.md",
     "media/images/Logos/wv11sb79.bmp",
     "media/images/Logos/cc-nc-sa-logo.png",
     "media/images/logos/cc-nc-sa-logo.png",
