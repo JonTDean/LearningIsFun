@@ -94,3 +94,4 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). You are free to share and adapt the material for non-commercial purposes, as long as you give appropriate credit and distribute your contributions under the same license.
 
 Please see the [LICENSE](Data/Documents/LICENSE.md) file for more details.
+
