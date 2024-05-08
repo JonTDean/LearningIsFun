@@ -1,4 +1,4 @@
-# Let's Learn Together Roadmap
+# Monastery Roadmap
 
 ## Overview
 This roadmap outlines the development and refinement stages for the educational content structured in the `Lessons` directory.

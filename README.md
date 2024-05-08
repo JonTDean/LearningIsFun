@@ -1,4 +1,4 @@
-# Let's Learn Together
+# Monastery
 
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue.svg)
 
@@ -15,7 +15,7 @@
 ## Table of Contents
 
 ## Table of Contents
-- [Let's Learn Together](#lets-learn-together)
+- [Monastery](#monastery)
 	- [Table of Contents](#table-of-contents)
 	- [Table of Contents](#table-of-contents-1)
 	- [Introduction](#introduction)
@@ -27,9 +27,9 @@
 
 ## Introduction
 
-"Let's Learn Together" is a collaborative system that aims to foster a supportive and engaging learning environment for individuals of all skill levels. Whether you're a beginner looking to learn new skills or an experienced professional seeking to expand your knowledge, this project provides a centralized hub for sharing resources, asking questions, and collaborating with like-minded learners.
+"Monastery" is a collaborative system that aims to foster a supportive and engaging learning environment for individuals of all skill levels. Whether you're a beginner looking to learn new skills or an experienced professional seeking to expand your knowledge, this project provides a centralized hub for sharing resources, asking questions, and collaborating with like-minded learners.
 
-By leveraging the power of community-driven learning, "Let's Learn Together" enables users to access a wide range of learning materials, participate in discussions, and contribute their own expertise. The project's goal is to break down barriers to education and empower individuals to achieve their learning goals through mutual support and collaboration.
+By leveraging the power of community-driven learning, "Monastery" enables users to access a wide range of learning materials, participate in discussions, and contribute their own expertise. The project's goal is to break down barriers to education and empower individuals to achieve their learning goals through mutual support and collaboration.
 
 ## Contact
 
@@ -37,7 +37,7 @@ If you have any questions, suggestions, or would like to collaborate on the proj
 
 - Discord: [Join our Discord server](https://discord.gg/CnKJX33hg3)
 
-We welcome any feedback, ideas, or contributions to help improve "Let's Learn Together" and make it a valuable resource for the learning community.
+We welcome any feedback, ideas, or contributions to help improve "Monastery" and make it a valuable resource for the learning community.
 
 ## Getting Started
 

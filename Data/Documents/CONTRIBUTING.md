@@ -1,10 +1,10 @@
-# Contributing to LLT
+# Contributing to Monastery
 
-Thank you for your interest in contributing to LLT! We value the contributions from the community, whether they are bug fixes, improvements, or new features. The following guidelines help to communicate how best to contribute to this project.
+Thank you for your interest in contributing to Monastery! We value the contributions from the community, whether they are bug fixes, improvements, or new features. The following guidelines help to communicate how best to contribute to this project.
 
 ## Code of Conduct
 
-LLT has adopted a Code of Conduct that we expect project participants to adhere to. Please read [the full text](/code_of_conduct.md) so that you can understand what actions will and will not be tolerated.
+Monastery has adopted a Code of Conduct that we expect project participants to adhere to. Please read [the full text](/code_of_conduct.md) so that you can understand what actions will and will not be tolerated.
 
 ## How Can I Contribute?
 
@@ -27,7 +27,7 @@ Before reporting a bug, please check the [issue tracker](https://github.com/JonT
 
 ### Suggesting Enhancements
 
-This section guides you through submitting an enhancement suggestion for LLT, including completely new features and minor improvements to existing functionality.
+This section guides you through submitting an enhancement suggestion for Monastery, including completely new features and minor improvements to existing functionality.
 
 **How to Submit a Good Enhancement Suggestion:**
 
@@ -35,14 +35,14 @@ This section guides you through submitting an enhancement suggestion for LLT, in
 - Provide a step-by-step description of the suggested enhancement in as many details as possible.
 - Provide specific examples to demonstrate the steps. Include copy/pasteable snippets which you use in those examples, as necessary.
 - Describe the current behavior and explain which behavior you expected to see instead and why.
-- Explain why this enhancement would be useful to most LLT users and isn't something that can or should be implemented as a community plugin.
+- Explain why this enhancement would be useful to most Monastery users and isn't something that can or should be implemented as a community plugin.
 
 [Example Suggestion Report](/Lessons/6_SoftSkills/1_Git/BugReportExample.md)
 
 
 ### Your First Code Contribution
 
-Unsure where to begin contributing to LLT? You can start by looking through "beginner" and "help-wanted" issues:
+Unsure where to begin contributing to Monastery? You can start by looking through "beginner" and "help-wanted" issues:
 
 - [Beginner issues](https://github.com/JonTDean/LetsLearnTogether/labels/beginner) - issues which should only require a few lines of code, and a test or two.
 - [Help wanted issues](https://github.com/JonTDean/LetsLearnTogether/labels/help%20wanted) - issues which should be a bit more involved than beginner issues.
@@ -51,10 +51,10 @@ Unsure where to begin contributing to LLT? You can start by looking through "beg
 
 The process described here has several goals:
 
-- Maintain LLT's quality
+- Maintain Monastery's quality
 - Fix problems that are important to users
-- Engage the community in working toward the best possible LLT
-- Enable a sustainable system for LLT's maintainers to review contributions
+- Engage the community in working toward the best possible Monastery
+- Enable a sustainable system for Monastery's maintainers to review contributions
 
 **What does it mean if a maintainer changes my pull request?**
 
