@@ -12,12 +12,10 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/jontdean/letslearntogether)
 
 
-## Table of Contents
 
 ## Table of Contents
 - [Monastery](#monastery)
 	- [Table of Contents](#table-of-contents)
-	- [Table of Contents](#table-of-contents-1)
 	- [Introduction](#introduction)
 	- [Contact](#contact)
 	- [Getting Started](#getting-started)
@@ -97,4 +95,4 @@ This project is licensed under the [Creative Commons Attribution-NonCommercial-S
 
 Please see the [LICENSE](Data\Documents\LICENSE.md) file for more details.
 
-![CC BY-NC-SA 4.0](Data\Media\Images\Logos\cc-nc-sa-logo.png)
+![CC BY-NC-SA 4.0](\Data\Media\Images\Logos\cc-nc-sa-logo.png)
