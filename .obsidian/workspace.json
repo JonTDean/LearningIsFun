@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Lessons/1_InitialSetup/4_Figma/Installation_Figma_Windows.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Lessons/1_InitialSetup/4_Figma/Installation_Figma_Windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Lessons/1_InitialSetup/4_Figma/Installation_Figma_Windows.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Lessons/1_InitialSetup/4_Figma/Installation_Figma_Windows.md"
               }
             }
           },
@@ -169,6 +169,9 @@
   },
   "active": "d07315ad75b3f2c5",
   "lastOpenFiles": [
+    "Kanban/Lessons/1_InitialSetupKanban.md",
+    "README.md",
+    "Data/Documents/ROADMAP.md",
     "Lessons/1_InitialSetup/1_Git/Installation_Windows_WSL.md",
     "Lessons/1_InitialSetup/1_Git/Installation_Windows.md",
     "Lessons/1_InitialSetup/2_VSCode/Installation_VSCode_Windows.md",
@@ -176,10 +179,8 @@
     "Lessons/1_InitialSetup/3_Obsidian/Obsidian_Installation.md",
     "Lessons/1_InitialSetup/4_Figma/Installation_Figma_Windows.md",
     "Lessons/1_InitialSetup/2_VSCode/InstallationVSCode.md",
-    "Data/Documents/ROADMAP.md",
     "Data/Documents/CONTRIBUTING.md",
     "Data/Documents/LICENSE.md",
-    "README.md",
     "test.md",
     "ROADMAP.md",
     "Data/commits.json",
@@ -189,7 +190,6 @@
     "Scripts/UpdateCommits.ps1",
     "Data",
     "Kanban/Lessons/5_SpecificProgrammingKanban.md",
-    "Kanban/Lessons/1_InitialSetupKanban.md",
     "Lessons/1_InitialSetup/3_Obsidian/Plugins.md",
     "Lessons/1_InitialSetup/3_Obsidian/ObsidianInstallation.md",
     "Lessons/1_InitialSetup/1_Git/InstallationWindowsWSL.md",
