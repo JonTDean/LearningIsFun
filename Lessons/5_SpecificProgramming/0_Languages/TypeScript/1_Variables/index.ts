@@ -7,6 +7,7 @@ import { describe, it } from "mocha";
  * 2. Variables must have a data type
  * 3. Use at least one const
  */
+let aName: string = "John Doe";
 
 // ========================================== Tests are here
 describe("Variables", () => {

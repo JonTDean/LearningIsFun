@@ -7,9 +7,6 @@ import { describe, it } from "mocha";
 // Functions
 // 		1. Must have a data type for each argument
 // 		2. Must have a return type
-// 		3. Must use at least 2 different types of an anonymous function
-//			3a. with a Rocket Constructor
-//			3b. with a function keyword
 // Write Functions here
 
 // ========================================== Tests are here
