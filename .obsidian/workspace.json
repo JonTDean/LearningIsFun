@@ -169,6 +169,8 @@
   },
   "active": "d07315ad75b3f2c5",
   "lastOpenFiles": [
+    "Lessons/5_SpecificProgramming/0_Languages/TypeScript/3_Functions/src",
+    "Lessons/5_SpecificProgramming/0_Languages/TypeScript/3_Functions/node_modules",
     "Lessons/5_SpecificProgramming/0_Languages/TypeScript/3_Functions/yarn.lock",
     "Lessons/5_SpecificProgramming/0_Languages/TypeScript/3_Functions/README.md",
     "Lessons/5_SpecificProgramming/0_Languages/TypeScript/3_Functions/package.json",
@@ -196,8 +198,6 @@
     "Data/branchCommits.json",
     "Data/commits.md",
     "Data/commits.csv",
-    "Scripts/UpdateCommits.ps1",
-    "Data",
     "Kanban/Lessons/5_SpecificProgrammingKanban.md",
     "Lessons/1_InitialSetup/3_Obsidian/Plugins.md",
     "Lessons/1_InitialSetup/3_Obsidian/ObsidianInstallation.md",
