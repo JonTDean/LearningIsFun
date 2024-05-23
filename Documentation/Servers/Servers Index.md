@@ -12,7 +12,7 @@ Phrontistery-Users
 		- Port: 22
   
 Phrontistery-Hosting
-- IP: 192.168.1.197
+- IP: 100.37.139.167
 - Sub-Servers:
 	- Name: Hashicorp Vault
 		- Port: 31313
