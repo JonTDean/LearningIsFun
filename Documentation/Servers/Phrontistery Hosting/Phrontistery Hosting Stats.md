@@ -44,3 +44,7 @@
 |- ChromaDB|2|4 GB|10 GB|
 |- Weaviate|2|4 GB|10 GB|
 |**Total Required:**|10|16 GB|42 GB|
+
+
+
+
