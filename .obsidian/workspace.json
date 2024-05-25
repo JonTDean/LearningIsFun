@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentation/Servers/Phrontistery Hosting/Phrontistery Index.md",
+                "file": "Documentation/Servers/Servers Index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b361881f5ec6bd99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Documentation/Servers/Server Layout.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Documentation/Servers/Phrontistery Hosting/Phrontistery Index.md",
+                "file": "Documentation/Servers/Server Layout.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Documentation/Servers/Phrontistery Hosting/Phrontistery Index.md",
+                "file": "Documentation/Servers/Server Layout.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Documentation/Servers/Phrontistery Hosting/Phrontistery Index.md"
+                "file": "Documentation/Servers/Server Layout.md"
               }
             }
           },
@@ -168,14 +181,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d07315ad75b3f2c5",
+  "active": "b361881f5ec6bd99",
   "lastOpenFiles": [
-    "Documentation/Servers/Phrontistery Share/Phrontistery Share About.md",
     "Documentation/Servers/Servers Index.md",
-    "Documentation/Students/Student Shell Setup.md",
+    "Documentation/Servers/Server Layout.md",
+    "Documentation/Servers/Phrontistery Hosting/Phrontistery Hosting About.md",
     "Documentation/Servers/Phrontistery Hosting/Phrontistery Hosting Stats.md",
-    "Documentation/Students",
     "Documentation/Servers/Phrontistery Hosting/Phrontistery Index.md",
+    "Documentation/Servers/Phrontistery Share/Phrontistery Share About.md",
+    "Documentation/Students/Student Shell Setup.md",
+    "Documentation/Students",
     "Lessons/1_InitialSetup/4_Figma/Installation_Figma_Windows.md",
     "Documentation/Servers/Phrontistery Hosting/Servers/Redis/Redis About.md",
     "Documentation/Servers/Phrontistery Hosting/Servers/PostgreSQL/PostgreSQL About.md",
@@ -193,7 +208,6 @@
     "Documentation/Servers/Phrontistery Hosting/Servers/HashiCorp Vault",
     "Documentation/Servers/Phrontistery Share/Samba",
     "Documentation/Servers/Phrontistery Hosting/Servers",
-    "Documentation/Servers/Phrontistery Hosting/Phrontistery Hosting About.md",
     "Documentation/Servers/Phrontistery Share",
     "Documentation/Servers/Phrontistery Hosting",
     "Documentation/Servers",
@@ -205,7 +219,6 @@
     "Documentation/Containers/Docker/Docker Index.md",
     "Documentation/Containers/Docker/Docker Image.md",
     "Documentation/Containers/Docker/Docker About.md",
-    "Documentation/Containers/Kubernetes/Kubernetes Index.md",
     "media/images/Logos/wv11sb79.bmp",
     "media/images/Logos/cc-nc-sa-logo.png",
     "media/images/logos/cc-nc-sa-logo.png",
