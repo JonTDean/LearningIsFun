@@ -23,10 +23,13 @@
 | k9s              | Installed for Kubernetes management                      |
 
 #### Installed Kubernetes Services
-
-| Service Name     | Type      | Cluster IP    | Node Port | Target Port | Description                  |
-| ---------------- | --------- | ------------- | --------- | ----------- | ---------------------------- |
-| kubernetes       | ClusterIP | 10.43.0.1     | N/A       | 443/TCP     | Kubernetes API server        |
-| victoria-metrics | ClusterIP | None          | N/A       | 8428/TCP    | Victoria Metrics server      |
-| grafana          | NodePort  | 10.43.142.175 | 32000     | 80/TCP      | Grafana monitoring dashboard |
-
+| Service Name | Type      | Cluster IP    | Node Port | Target Port | Description                       |
+| ------------ | --------- | ------------- | --------- | ----------- | --------------------------------- |
+| kubernetes   | ClusterIP | 10.43.0.1     | N/A       | 443/TCP     | Kubernetes API server             |
+| prometheus   | NodePort  | 10.43.117.107 | 32003     | 9090/TCP    | Prometheus monitoring system      |
+| grafana      | NodePort  | 10.43.142.175 | 32000     | 80/TCP      | Grafana monitoring dashboard      |
+| longhorn     | ClusterIP | 10.43.x.x     | N/A       | various     | Longhorn storage management       |
+| istio        | ClusterIP | 10.43.x.x     | N/A       | various     | Istio service mesh                |
+| kiali        | ClusterIP | 10.43.x.x     | N/A       | various     | Kiali for Istio observability     |
+| velero       | ClusterIP | 10.43.x.x     | N/A       | various     | Velero backup and restore         |
+| kubeflow     | ClusterIP | 10.43.x.x     | N/A       | various     | Kubeflow machine learning toolkit |
