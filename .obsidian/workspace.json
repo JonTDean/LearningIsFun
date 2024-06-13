@@ -8,31 +8,53 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d07315ad75b3f2c5",
+            "id": "b361881f5ec6bd99",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentation/Servers/Servers Index.md",
+                "file": "Documentation/Servers/Server Notes.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b361881f5ec6bd99",
+            "id": "46c7646b902f7bc9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentation/Servers/Server Layout.md",
+                "file": "Documentation/Servers/Server Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3d442ea63e3e42fb",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
+          },
+          {
+            "id": "4fc9183151f375e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -82,7 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 265.5
   },
   "right": {
     "id": "b270b0eb95bedefe",
@@ -98,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Documentation/Servers/Server Layout.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Documentation/Servers/Server Layout.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,12 +160,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Documentation/Servers/Server Layout.md"
+                "file": "Untitled.md"
               }
             }
           },
           {
-            "id": "1fb869506808f326",
+            "id": "1c8d574ef8c0827f",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -151,7 +173,7 @@
             }
           },
           {
-            "id": "8ecea3a023aef342",
+            "id": "da5257e28ec28f24",
             "type": "leaf",
             "state": {
               "type": "reference-map-view",
@@ -159,7 +181,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -176,19 +198,28 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "reference-map:Reference Map": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b361881f5ec6bd99",
+  "active": "4fc9183151f375e4",
   "lastOpenFiles": [
-    "Documentation/Servers/Servers Index.md",
+    "Untitled.md",
     "Documentation/Servers/Server Layout.md",
-    "Documentation/Servers/Phrontistery Hosting/Phrontistery Hosting About.md",
-    "Documentation/Servers/Phrontistery Hosting/Phrontistery Hosting Stats.md",
-    "Documentation/Servers/Phrontistery Hosting/Phrontistery Index.md",
     "Documentation/Servers/Phrontistery Share/Phrontistery Share About.md",
+    "Documentation/Servers/Phrontistery Hosting/Phrontistery Index.md",
+    "Documentation/Servers/Phrontistery Hosting/Phrontistery Hosting Stats.md",
+    "Documentation/Servers/Phrontistery Hosting/Phrontistery Hosting About.md",
+    "Documentation/Containers/Containers Index.md",
+    "Documentation/Containers/Containerization About.md",
+    "Documentation/Servers/Server Notes.md",
+    "Documentation/Containers/Kubernetes/Kubernetes ClusterPort and NodePort.md",
+    "Documentation/Containers/Kubernetes/Kubernetes Basic Concepts.md",
+    "Documentation/Containers/Kubernetes/Kubernetes Index.md",
+    "Documentation/Servers/Servers Index.md",
+    "Documentation/Containers/Kubernetes/Kubernetes Namespaces.md",
+    "Documentation/Containers/Kubernetes/Kubernetes - TLS Cert M-W.md",
     "Documentation/Students/Student Shell Setup.md",
     "Documentation/Students",
     "Lessons/1_InitialSetup/4_Figma/Installation_Figma_Windows.md",
@@ -201,7 +232,6 @@
     "Documentation/Servers/Phrontistery Hosting/Servers/HashiCorp Vault/Hashicorp Vault About.md",
     "Documentation/Servers/Phrontistery Share/Samba/Samba Create New Users.md",
     "Documentation/Servers/Phrontistery Share/Samba/Samba Connect.md",
-    "Documentation/Servers/Phrontistery Share/Samba/Samba About.md",
     "Documentation/Servers/Phrontistery Hosting/Servers/Redis",
     "Documentation/Servers/Phrontistery Hosting/Servers/PostgreSQL",
     "Documentation/Servers/Phrontistery Hosting/Servers/MongoDB",
@@ -211,14 +241,6 @@
     "Documentation/Servers/Phrontistery Share",
     "Documentation/Servers/Phrontistery Hosting",
     "Documentation/Servers",
-    "Documentation/Containers/Kubernetes/K3s/K3S Pods.md",
-    "Documentation/Containers/Kubernetes/K3s/K3S Namespaces.md",
-    "Documentation/Containers/Kubernetes/K3s/K3S Index.md",
-    "Documentation/Containers/Kubernetes/K3s/K3S Helm.md",
-    "Documentation/Containers/Kubernetes/K3s/K3S About.md",
-    "Documentation/Containers/Docker/Docker Index.md",
-    "Documentation/Containers/Docker/Docker Image.md",
-    "Documentation/Containers/Docker/Docker About.md",
     "media/images/Logos/wv11sb79.bmp",
     "media/images/Logos/cc-nc-sa-logo.png",
     "media/images/logos/cc-nc-sa-logo.png",
